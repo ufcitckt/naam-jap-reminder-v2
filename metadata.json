@@ -1,0 +1,6 @@
+{
+  "name": "Naam Jap Reminder",
+  "description": "A meditative offline-first reminder app for chanting 'Naam Jap' with customizable intervals, quiet hours, custom sounds, and browser notifications.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

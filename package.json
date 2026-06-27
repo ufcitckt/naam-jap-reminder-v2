@@ -1,0 +1,12 @@
+{
+  "name": "naam-jap-reminder-android-portal",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"const fs = require('fs'); const src = './app/build/outputs/apk/debug/app-debug.apk'; const dest = './Naam_Jap_Reminder_v1.0.0.apk'; if (fs.existsSync(src)) { fs.copyFileSync(src, dest); const stats = fs.statSync(dest); console.log('=== APK COPY SUCCESS ==='); console.log('Copied to:', dest); console.log('Size:', (stats.size / (1024 * 1024)).toFixed(2) + ' MB (' + stats.size + ' bytes)'); } else { console.error('Error: Source APK not found at', src); }\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
